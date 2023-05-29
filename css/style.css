@@ -144,3 +144,18 @@ svg {
 .fs-500 {font-size: var(--fs-500);}
 .fs-600 {font-size: var(--fs-600);}
 
+.primary-header {
+  background-color: gainsboro;
+}
+.nav-list {
+  background-color: green;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  
+}
+li a{
+  text-decoration: none;
+  text-decoration-line: none;
+  color: var(--clr-accent-100);
+}
